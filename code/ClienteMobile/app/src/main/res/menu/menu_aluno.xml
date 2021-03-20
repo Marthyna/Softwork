@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_conta"
+        android:title="Conta"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_ofertas"
+        android:title="Ofertas"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_aceitos"
+        android:title="Aceitos"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_recusados"
+        android:title="Recusados"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_em_espera"
+        android:title="Em espera"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_historico"
+        android:title="Histórico de vagas"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_mensagens"
+        android:title="Mensagens"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/item_sair"
+        android:title="Sair"
+        app:showAsAction="collapseActionView"></item>
+</menu>

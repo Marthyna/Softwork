@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mariana.softwork20.CadastroAluno"
+    tools:showIn="@layout/activity_cadastro_aluno"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar:"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Nome completo"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroNomeCompleto"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="RG"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroRG"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="CPF"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroCPF"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="date"
+        android:hint="Data de Nascimento"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroDataNasc"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbCadastroFeminino"
+            android:text="Feminino"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbCadastroMasculino"
+            android:text="Masculino"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/bCadastroProximo"
+        android:text="Próximo"
+        android:textSize="17dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

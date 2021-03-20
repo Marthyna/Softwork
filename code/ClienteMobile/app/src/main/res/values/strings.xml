@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Softwork2.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro_geral">Cadastrar</string>
+    <string name="title_activity_senha">Senha</string>
+    <string name="title_activity_cadastro_aluno">Cadastrar Aluno</string>
+
+    <string-array name="opcoesMenu">
+        <item>Conta</item>
+        <item>Vagas abertas</item>
+        <item>Aceitos</item>
+        <item>Recusados</item>
+        <item>Histórico de vagas</item>
+        <item>Mensagens</item>
+    </string-array>
+
+    <string-array name="ano">
+        <item>Selecione uma opção</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="turno">
+        <item>Selecione uma opção</item>
+        <item>Manhã</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+
+    <string-array name="curso">
+        <item>Selecione uma opção</item>
+        <item>Técnico em Informática</item>
+        <item>Técnico em Refrigeração e Climatização</item>
+        <item>Técnico em Eletromecânica</item>
+        <item>Técnico em Secretariado</item>
+    </string-array>
+
+    <string name="title_activity_cadastro_empresa">Cadastrar empresa</string>
+    <string name="title_activity_cadastro_aluno_final">Cadastrar aluno</string>
+    <string name="title_activity_tela_inicial_aluno">Ofertas de vaga</string>
+    <string name="title_activity_cadastro_curriculo">Cadastrar currículo</string>
+    <string name="title_activity_cadastro_curriculo_final">Cadastrar currículo</string>
+    <string name="title_activity_empresa_vagas_abertas">Vagas abetas</string>
+    <string name="title_activity_empresa_recebidos_por_vaga">Aplicações recebidas</string>
+    <string name="title_activity_cadastrar_vaga">Cadastrar vaga</string>
+    <string name="title_activity_empresa_vaga_detalhar">Detalhes da vaga</string>
+    <string name="title_activity_empresa_detalhar_aplicacao">Detalhes da aplicação</string>
+    <string name="title_activity_empresa_conta">Dados da conta</string>
+    <string name="title_activity_empresa_redefine_senha">Redefinir senha</string>
+    <string name="title_activity_empresa_aceitos">Aplicações aceitas</string>
+    <string name="title_activity_empresa_detalha_aplicacao">Detalhes da aplicação</string>
+    <string name="title_activity_empresa_detalhar_aceitos">Detalhes da aplicação</string>
+    <string name="title_activity_empresa_envia_mensagem">Enviar mensagem</string>
+    <string name="title_activity_empresa_recusados">Aplicações recusadas</string>
+    <string name="title_activity_empresa_historico">Histórico de vagas</string>
+    <string name="title_activity_empresa_mensagens">Mensagens</string>
+    <string name="title_activity_empresa_detalhar_mensagem">Detalhes da mensagem</string>
+    <string name="title_activity_aluno_conta">Dados da conta</string>
+    <string name="title_activity_aluno_redefine_senha">Redefinir senha</string>
+    <string name="title_activity_aluno_ofertas_detalhar">Detalhes da vaga</string>
+    <string name="title_activity_aluno_aceitos">Aplicações aceitas</string>
+    <string name="title_activity_aluno_detalha_aplicacao">Detalhes da aplicação</string>
+    <string name="title_activity_aluno_recusados">Aplicações recusadas</string>
+    <string name="title_activity_aluno_em_espera">Aplicações pendentes</string>
+    <string name="title_activity_aluno_historico">Histórico de aplicações</string>
+    <string name="title_activity_aluno_mensagens">Mensagens</string>
+    <string name="title_activity_aluno_mensagem_detalhar">Detalhes da mensagem</string>
+    <string name="title_activity_recupera_senha">Recuperar senha</string>
+    <string name="title_activity_empresa_detalhar_recusado">Detalhes da aplicação</string>
+
+
+</resources>

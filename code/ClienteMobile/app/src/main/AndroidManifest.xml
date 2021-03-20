@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mariana.softwork20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".InformacoesApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadastroGeral"
+            android:label="@string/title_activity_cadastro_geral"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.Login" />
+        </activity>
+        <activity
+            android:name=".CadastroAluno"
+            android:label="@string/title_activity_cadastro_aluno"
+            android:parentActivityName=".CadastroGeral"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroGeral" />
+        </activity>
+        <activity
+            android:name=".CadastroEmpresa"
+            android:label="@string/title_activity_cadastro_empresa"
+            android:parentActivityName=".CadastroGeral"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroGeral" />
+        </activity>
+        <activity
+            android:name=".CadastroAlunoFinal"
+            android:label="@string/title_activity_cadastro_aluno_final"
+            android:parentActivityName=".CadastroAluno"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroAluno" />
+        </activity>
+        <activity
+            android:name=".AlunoOfertas"
+            android:label="@string/title_activity_tela_inicial_aluno"
+            android:parentActivityName=".CadastroCurriculoFinal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroCurriculoFinal" />
+        </activity>
+        <activity
+            android:name=".CadastroCurriculo"
+            android:label="@string/title_activity_cadastro_curriculo"
+            android:parentActivityName=".CadastroAlunoFinal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroAlunoFinal" />
+        </activity>
+        <activity
+            android:name=".CadastroCurriculoFinal"
+            android:label="@string/title_activity_cadastro_curriculo_final"
+            android:parentActivityName=".CadastroCurriculo"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.CadastroCurriculo" />
+        </activity>
+        <activity
+            android:name=".EmpresaVagasAbertas"
+            android:label="@string/title_activity_empresa_vagas_abertas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaRecebidosPorVaga"
+            android:label="@string/title_activity_empresa_recebidos_por_vaga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaCadastrarVaga"
+            android:label="@string/title_activity_cadastrar_vaga"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaVagaDetalhar"
+            android:label="@string/title_activity_empresa_vaga_detalhar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaDetalharAplicacao"
+            android:label="@string/title_activity_empresa_detalhar_aplicacao"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaConta"
+            android:label="@string/title_activity_empresa_conta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaRedefineSenha"
+            android:label="@string/title_activity_empresa_redefine_senha"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaAceitos"
+            android:label="@string/title_activity_empresa_aceitos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaDetalharAceitos"
+            android:label="@string/title_activity_empresa_detalhar_aceitos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaEnviaMensagem"
+            android:label="@string/title_activity_empresa_envia_mensagem"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".EmpresaRecusados"
+            android:label="@string/title_activity_empresa_recusados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaHistorico"
+            android:label="@string/title_activity_empresa_historico"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaMensagens"
+            android:label="@string/title_activity_empresa_mensagens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmpresaDetalharMensagem"
+            android:label="@string/title_activity_empresa_detalhar_mensagem"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AlunoConta"
+            android:label="@string/title_activity_aluno_conta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoRedefineSenha"
+            android:label="@string/title_activity_aluno_redefine_senha"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AlunoOfertasDetalhar"
+            android:label="@string/title_activity_aluno_ofertas_detalhar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AlunoAceitos"
+            android:label="@string/title_activity_aluno_aceitos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoDetalhaAplicacao"
+            android:label="@string/title_activity_aluno_detalha_aplicacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoRecusados"
+            android:label="@string/title_activity_aluno_recusados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoEmEspera"
+            android:label="@string/title_activity_aluno_em_espera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoHistorico"
+            android:label="@string/title_activity_aluno_historico"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoMensagens"
+            android:label="@string/title_activity_aluno_mensagens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlunoMensagemDetalhar"
+            android:label="@string/title_activity_aluno_mensagem_detalhar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RecuperaSenha"
+            android:label="@string/title_activity_recupera_senha"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mariana.softwork20.Login" />
+        </activity>
+        <activity
+            android:name=".EmpresaDetalharRecusado"
+            android:label="@string/title_activity_empresa_detalhar_recusado"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

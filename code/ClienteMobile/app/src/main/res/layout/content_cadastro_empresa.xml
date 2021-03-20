@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mariana.softwork20.CadastroEmpresa"
+    tools:showIn="@layout/activity_cadastro_empresa"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar:"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="CNPJ"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroCNPJ"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Razão Social"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroRazaoSocial"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="Nome Fantasia"
+        android:layout_marginTop="12dp"
+        android:id="@+id/etCadastroNomeFantasia"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:text="Enviar"
+        android:id="@+id/bCadastroEmpresaEnviar"/>
+
+</LinearLayout>
